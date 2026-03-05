@@ -209,3 +209,9 @@ __marimo__/
 # CSV
 .csv
 csv
+
+# Filer
+data
+
+# data
+historical_data.csv 
