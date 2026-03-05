@@ -209,3 +209,6 @@ __marimo__/
 # CSV
 .csv
 csv
+
+# Data
+/data/
