@@ -210,8 +210,5 @@ __marimo__/
 .csv
 csv
 
-# Filer
-data
-
-# data
-historical_data.csv 
+# Data
+/data/
