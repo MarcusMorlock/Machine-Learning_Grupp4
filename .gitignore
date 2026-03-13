@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+*.csv
 
 # Distribution / packaging
 .Python
@@ -210,8 +211,5 @@ __marimo__/
 .csv
 csv
 
-# Filer
-data
-
-# data
-historical_data.csv 
+# Data
+/data/
