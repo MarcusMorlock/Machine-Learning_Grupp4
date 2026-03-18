@@ -36,8 +36,8 @@ Vi använder en pipeline för att hantera preprocessing på ett sätt som minska
 - Jonas: Data och EDA
 - Marcus: Pipeline och preprocessing
 - Henry: Modelljämförelse
-- Henrik: Optimering
-- Ali: Threshold och prioritering
+- Henrik: Optimering och presentation
+- Ali: Threshold, prioritering och resultat på new_data.csv
  
-## Kommentar
-Vid redovisningen visar vi också vårt resultat på new_data.csv, hur många observationer vi flaggar och en kort reflektion kring risker, begränsningar och nästa steg.
+## Resultat på ny data
+Projektet innehåller även en tillämpning av den färdiga och låsta pipelinen på `new_data.csv`. Eftersom `new_data.csv` saknar target används filen inte för utvärdering med precision eller recall, utan för att skapa en prioriteringslista för manuell granskning. Med vårt valda tröskelvärde på 0.62 flaggade modellen 7 händelser av totalt 2000 nya observationer.
