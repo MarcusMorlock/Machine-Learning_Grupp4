@@ -24,7 +24,7 @@ Random state: 42
 1. Klona repot från GitHub
 2. Skapa och aktivera en virtuell miljö
 3. Installera paketen med `python -m pip install -r requirements.txt`
-4. Kontrollera att historical_data.csv och new_data.csv finns i projektets rotmapp
+4. Kontrollera att `historical_data.csv` och `new_data.csv` finns i projektets rotmapp
 5. Öppna `report.ipynb` i VS Code eller Jupyter
 6. Kör notebooken med `Restart & Run All`
  
