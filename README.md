@@ -4,7 +4,12 @@ Detta projekt är en gruppuppgift i Machine Learning där målet är att bygga e
  
 ## Projektets mål
 Vi ska bygga en klassificeringsmodell som bedömer om en händelse är misstänkt eller inte. Syftet är inte att få allt rätt, utan att skapa en lösning som fungerar rimligt bra på ny data, går att köra regelbundet och går att förklara för icke-tekniska personer.
- 
+
+## Data
+Projektet använder två filer i projektets rotmapp:
+- `historical_data.csv` för träning, test och modellutvärdering
+- `new_data.csv` för prediktion på ny, osedd data
+
 ## Verktyg och paket
 - Python 3.13.7
 - numpy
@@ -19,8 +24,9 @@ Random state: 42
 1. Klona repot från GitHub
 2. Skapa och aktivera en virtuell miljö
 3. Installera paketen med `python -m pip install -r requirements.txt`
-4. Öppna `report.ipynb` i VS Code eller Jupyter
-5. Kör notebooken med `Restart & Run All`
+4. Kontrollera att historical_data.csv och new_data.csv finns i projektets rotmapp
+5. Öppna `report.ipynb` i VS Code eller Jupyter
+6. Kör notebooken med `Restart & Run All`
  
 ## Kravkort
 Vi pitchar till Lina, Customer Support Lead.
